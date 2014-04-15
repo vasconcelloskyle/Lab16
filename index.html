@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      h1.hidden {visibility:hidden;}
+      
+      p.italics {font-style:italic;}
+      p.internalStyle {font-size: 20px;}
+      #anID {font-size:26px; text-align:center; color:orange;}
+      
+      table, td, th
+      {
+      border:1px solid green;
+      }
+      th
+      {
+      background-color:green;
+      color:white;
+      }
+      td
+      {
+      padding:15px
+      }
+      li
+      {
+      list-style-type:square;
+      background-color:#FFFFFF;}
+      margin:5;
+      padding:0;
+      }
+      
+      p
+      {
+      color:red;
+      text-align:center;
+      }
+      body
+      {
+      background-color:white;
+      }
+      
+      a:link
+      {
+      display:block;
+      width:90px;
+      link {color:black;text-decoration:none}
+      visited {color:purple;}
+      }
+      
+    </style>
+
+  </head>
+<body>
+  <header>
+    <h1 class = "hidden">I'm hidden!</h1>
+    <h1>CS355 Lab 16</h1>
+    <p class = "italics">Hello!</p>
+    <p class = "internalStyle">This website will let you input information about a band into a database</p>
+    
+    <div id="navigation" style ="width:600px">
+      <ul class="links">
+ <a href="secondpage/">Enter into database</a><br />
+
+</li>
+</ul>
+
+
+<footer>
+  <p>Posted by Kyle Vasconcellos</p>
+  <p>I'm a footer</p>
+</footer>
+</div>
+
+<a onclick="document.getElementById('myDiv').style.display='';return false;"
+   href = "" style = "text-decoration:none;">
+  Click me!</a>
+<div id = "myDiv" style = "display:none;">
+  I appeared using javascript!
+</div>
+</body>
+</html>
